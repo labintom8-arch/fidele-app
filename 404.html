@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page introuvable — Fidèle</title>
+<meta name="robots" content="noindex">
+
+<style>
+  :root {
+    --ink: #1B2A4A;
+    --terracotta: #D9713C;
+    --ivory: #FBF6EF;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Public Sans', -apple-system, sans-serif;
+    background: var(--ivory);
+    color: var(--ink);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .box { max-width: 360px; text-align: center; }
+  .num {
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 72px;
+    color: var(--terracotta);
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+  h1 { font-size: 22px; margin-bottom: 10px; }
+  p { font-size: 15px; color: #4A5670; margin-bottom: 28px; }
+  a.cta {
+    display: inline-block;
+    background: var(--terracotta);
+    color: var(--ivory);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-size: 16px;
+  }
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="num">404</div>
+  <h1>Cette page n'existe pas</h1>
+  <p>Le lien est peut-être ancien ou mal copié. Pas de souci, tout se passe à l'accueil.</p>
+  <a href="/" class="cta">Retour à l'accueil →</a>
+</div>
+</body>
+</html>
